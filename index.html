@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nikhil's To-Do List</title>
+
+ 
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha256-ZgJYmqb5jZ8WCDqIYHlUarCVI7NDkBCeFnMW1gfihwY= sha512-yK8VlGnQXDlAH4aaZwd0EfmkYwv/XwZaA7VcT9JDO1YeZSvzu94p7/btLABkerIR26o7uYIiEmY59gQv/w/itA==" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+   <head>
+    </head>
+</head>
+<body>
+<div class="container">
+
+    <h1>Nikhil's Task Manager</h1>
+
+    <table id="list" class="table table-striped table-bordered table-hover active table-responsive">
+      <tbody>
+        <tr>
+          <th>Annoying Bullshit To Do</th>
+          <th>You Can Procrastinate Until:</th>
+          <td><button id="clear">Clear My Schedule</button></td>
+        </tr>
+        <tr id="input">
+          <td><input type="text" size="40" id="action"></td>
+          <td><input type="date" id="duedate"></td>
+          <td><button id="add">Add Task</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+</div>
+  
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ <script src="main.js"></script>
+</body>
+</html>

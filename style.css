@@ -1,0 +1,43 @@
+
+#input input, #clear, #add {
+  color: darkblue;
+}
+
+
+
+#clear, #add {
+  font-family: 'trebuchet MS', sans-serif;
+color: #115438;
+background-color: #BBF51D;
+font-size: 12px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 1pt;
+
+}
+
+.delete {
+  position: relative;
+  right: -2em;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+body {
+    background-color: #ccd5ff;
+}
+
+h1 {
+
+font-family: 'trebuchet MS', sans-serif;
+color: #115438;
+background-color: #BBF51D;
+font-size: 48px;
+font-weight: bold;
+text-align: center;
+letter-spacing: 3pt;
+
+}
